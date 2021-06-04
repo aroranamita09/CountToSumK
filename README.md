@@ -19,7 +19,7 @@ class Main {
 	}
 	//arr[i]=1,2,3,4,5,6 k=7-6=1
 	for(int i=0;i<n;i++){
-		int remSum=k-arr[i]
+		int remSum=k-arr[i];
 		if(hm.containsKey(remSum))
 		   count++;	
 	}
